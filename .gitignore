@@ -3,3 +3,6 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+app-prev1.py
+app-prev2.py
+app-prev3.py

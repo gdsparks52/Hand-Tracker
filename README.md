@@ -2,8 +2,6 @@
 
 An accurate, real-time Computer Vision application built using **OpenCV** and **Google MediaPipe**. The system tracks up to two hands simultaneously, counts extended fingers in 360-degree space, detects specific gestures (*FIST* vs. *WIDE OPEN*), and dynamically changes visual overlay colors based on hand states.
 
-It includes automatic platform detection to handle camera index routing seamlessly across **macOS** and **Windows**.
-
 ---
 
 ## Features
@@ -14,9 +12,7 @@ It includes automatic platform detection to handle camera index routing seamless
   * Displays real-time **Finger Count**.
   * **FIST Detection:** Turns hand skeleton, joints, and count text **Red** when all detected hands form a fist, displaying a `FIST` state label.
   * **WIDE OPEN Detection:** Displays a `WIDE OPEN` state label when all detected hands are fully extended.
-* **Cross-Platform Camera Routing:** 
-  * **macOS:** Targets camera index `1` with `AVFoundation` to avoid automatically grabbing an iPhone via Continuity Camera.
-  * **Windows:** Targets camera index `0` using the DirectShow (`cv2.CAP_DSHOW`) backend for fast video stream initialization.
+* **Designed for macOS:** Targets camera index `1` with `AVFoundation` to avoid automatically grabbing an iPhone via Continuity Camera.
 
 ---
 
