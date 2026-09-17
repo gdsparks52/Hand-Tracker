@@ -1,8 +1,13 @@
+# Virtual Environments
 venv/
 .venv/
+
+# Python Cache & OS Files
 __pycache__/
 *.pyc
 .DS_Store
+
+# Obsolete Version Scripts
 app-prev1.py
 app-prev2.py
 app-prev3.py
