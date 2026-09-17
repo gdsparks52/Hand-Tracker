@@ -22,7 +22,4 @@ An accurate, real-time Computer Vision application built using **OpenCV** and **
 ├── .gitignore          # Excludes venv, pycache, and system files from version control
 ├── README.md           # Project documentation
 ├── requirements.txt    # Python package dependencies
-├── app.py              # Main active application script
-├── app-prev1.py        # Version history: Initial 3D distance single-hand prototype
-├── app-prev2.py        # Version history: Dual-hand update
-└── app-prev3.py        # Version history: Orientation & gesture color update# Hand-Tracker
+└── app.py              # Main active application script
