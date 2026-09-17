@@ -1,4 +1,4 @@
-# Real-Time Cross-Platform Finger Counter & Gesture Tracker
+# Real-Time Finger Counter & Gesture Tracker
 
 An accurate, real-time Computer Vision application built using **OpenCV** and **Google MediaPipe**. The system tracks up to two hands simultaneously, counts extended fingers in 360-degree space, detects specific gestures (*FIST* vs. *WIDE OPEN*), and dynamically changes visual overlay colors based on hand states.
 
